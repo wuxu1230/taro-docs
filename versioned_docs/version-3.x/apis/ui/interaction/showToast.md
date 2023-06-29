@@ -6,7 +6,7 @@ sidebar_label: showToast
 显示消息提示框
 
 **注意**
-- Taro.showLoading 和 Taro.showToast 同时只能显示一个
+- Taro.showLoading 和 Taro.showToast 同时只能显示一个（微信中这样、支付宝却可以同时显示）
 - Taro.showToast 应与 Taro.hideToast 配对使用
 
 支持情况：<img title="微信小程序" src={require('@site/static/img/platform/weapp.png').default} className="icon_platform" width="25px"/> <img title="抖音小程序" src={require('@site/static/img/platform/tt.png').default} className="icon_platform" width="25px"/> <img title="H5" src={require('@site/static/img/platform/h5.png').default} className="icon_platform" width="25px"/> <img title="React Native" src={require('@site/static/img/platform/rn.png').default} className="icon_platform" width="25px"/> <img title="Harmony" src={require('@site/static/img/platform/harmony.png').default} className="icon_platform icon_platform--not-support" width="25px"/>
